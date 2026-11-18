@@ -1,0 +1,519 @@
+{
+  "width": 1080,
+  "height": 1920,
+  "fps": 30,
+  "secondsPerWord": 0.38,
+  "minSecondsPerLine": 1.8,
+  "font": "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+  "fontSize": 78,
+  "voice": {
+    "provider": "none",
+    "openaiModel": "gpt-4o-mini-tts",
+    "openaiVoice": "alloy"
+  },
+  "defaultStyle": "midnight",
+  "styles": {
+    "midnight": {
+      "name": "Midnight",
+      "gradients": [
+        [
+          "0a0d28",
+          "1a1f5a"
+        ],
+        [
+          "101030",
+          "2a2a7a"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x0a0d28",
+      "coverText": "0xffffff",
+      "accent": "0x2146d9",
+      "accentText": "0xffffff",
+      "hi": "ffd23f",
+      "hiText": "17171a"
+    },
+    "sunrise": {
+      "name": "Sunrise",
+      "gradients": [
+        [
+          "ff7a18",
+          "ffb347"
+        ],
+        [
+          "ff5a14",
+          "ff9a5a"
+        ]
+      ],
+      "text": "0x17171a",
+      "cover": "0x1d1d1f",
+      "coverText": "0xffffff",
+      "accent": "0xff5a14",
+      "accentText": "0x17171a",
+      "hi": "ffffff",
+      "hiText": "17171a"
+    },
+    "mono": {
+      "name": "Mono",
+      "gradients": [
+        [
+          "101010",
+          "2a2a2a"
+        ],
+        [
+          "1a1a1a",
+          "3a3a3a"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x101010",
+      "coverText": "0xffffff",
+      "accent": "0x3a3a3a",
+      "accentText": "0xffffff",
+      "hi": "c6ff3d",
+      "hiText": "111111"
+    },
+    "forest": {
+      "name": "Forest",
+      "gradients": [
+        [
+          "053b2f",
+          "0f6b55"
+        ],
+        [
+          "06281f",
+          "12805f"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x053b2f",
+      "coverText": "0xffffff",
+      "accent": "0x0f6b55",
+      "accentText": "0xffffff",
+      "hi": "f4c95d",
+      "hiText": "10221c"
+    },
+    "paper": {
+      "name": "Paper",
+      "gradients": [
+        [
+          "f3f0ff",
+          "c9bff0"
+        ],
+        [
+          "ece8ff",
+          "b7a9ee"
+        ]
+      ],
+      "text": "0x17171a",
+      "cover": "0x2b1b66",
+      "coverText": "0xffffff",
+      "accent": "0x6f45e8",
+      "accentText": "0xffffff",
+      "hi": "6f45e8",
+      "hiText": "ffffff"
+    },
+    "neon": {
+      "name": "Neon",
+      "gradients": [
+        [
+          "0b0224",
+          "2a0a5e"
+        ],
+        [
+          "12032e",
+          "3b0f7a"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x0b0224",
+      "coverText": "0xffffff",
+      "accent": "0x39ffd0",
+      "accentText": "0x06121c",
+      "hi": "39ffd0",
+      "hiText": "06121c"
+    },
+    "blueprint": {
+      "name": "Blueprint",
+      "gradients": [
+        [
+          "0d3b8e",
+          "1558c0"
+        ],
+        [
+          "0a3380",
+          "1a62d0"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x0d3b8e",
+      "coverText": "0xffffff",
+      "accent": "0xffe45c",
+      "accentText": "0x10223f",
+      "hi": "ffe45c",
+      "hiText": "10223f"
+    },
+    "whiteboard": {
+      "name": "Whiteboard",
+      "gradients": [
+        [
+          "fbfbf8",
+          "eeeee6"
+        ],
+        [
+          "ffffff",
+          "f1f0ea"
+        ]
+      ],
+      "text": "0x17171a",
+      "cover": "0xfbfbf8",
+      "coverText": "0x17171a",
+      "accent": "0xffd23f",
+      "accentText": "0x17171a",
+      "hi": "ffd23f",
+      "hiText": "17171a"
+    },
+    "retro": {
+      "name": "Retro 80s",
+      "gradients": [
+        [
+          "2b0b4a",
+          "7a1d8f"
+        ],
+        [
+          "1c0636",
+          "a3237a"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x2b0b4a",
+      "coverText": "0xffffff",
+      "accent": "0xffb02e",
+      "accentText": "0x2b0b4a",
+      "hi": "ffb02e",
+      "hiText": "2b0b4a"
+    },
+    "minimal": {
+      "name": "Minimal",
+      "gradients": [
+        [
+          "ffffff",
+          "f4f4f4"
+        ],
+        [
+          "fafafa",
+          "ececec"
+        ]
+      ],
+      "text": "0x0e0e10",
+      "cover": "0xffffff",
+      "coverText": "0x0e0e10",
+      "accent": "0x0e0e10",
+      "accentText": "0xffffff",
+      "hi": "0e0e10",
+      "hiText": "ffffff"
+    },
+    "luxury": {
+      "name": "Luxury",
+      "gradients": [
+        [
+          "0c0a07",
+          "1d1710"
+        ],
+        [
+          "110d08",
+          "241c12"
+        ]
+      ],
+      "text": "0xf3e9d2",
+      "cover": "0x0c0a07",
+      "coverText": "0xf3e9d2",
+      "accent": "0xd4af37",
+      "accentText": "0x0c0a07",
+      "hi": "d4af37",
+      "hiText": "0c0a07"
+    },
+    "brutal": {
+      "name": "Brutalist",
+      "gradients": [
+        [
+          "ffe14a",
+          "ffd000"
+        ],
+        [
+          "fff06b",
+          "ffd91a"
+        ]
+      ],
+      "text": "0x0e0e10",
+      "cover": "0xffe14a",
+      "coverText": "0x0e0e10",
+      "accent": "0x0e0e10",
+      "accentText": "0xffe14a",
+      "hi": "0e0e10",
+      "hiText": "ffe14a"
+    },
+    "glossy": {
+      "name": "Glossy",
+      "gradients": [
+        [
+          "e9d5ff",
+          "bde0fe"
+        ],
+        [
+          "ffd6f0",
+          "c7d2fe"
+        ]
+      ],
+      "text": "0x1b1233",
+      "cover": "0xe9d5ff",
+      "coverText": "0x1b1233",
+      "accent": "0x7c3aed",
+      "accentText": "0xffffff",
+      "hi": "7c3aed",
+      "hiText": "ffffff"
+    },
+    "comic": {
+      "name": "Comic book",
+      "gradients": [
+        [
+          "ffd23f",
+          "ffb300"
+        ],
+        [
+          "ffe15c",
+          "ffc21a"
+        ]
+      ],
+      "text": "0x111111",
+      "cover": "0xffd23f",
+      "coverText": "0x111111",
+      "accent": "0xef4444",
+      "accentText": "0xffffff",
+      "hi": "ef4444",
+      "hiText": "ffffff"
+    },
+    "chalkboard": {
+      "name": "Chalkboard",
+      "gradients": [
+        [
+          "1f3a2e",
+          "2a4d3c"
+        ],
+        [
+          "234235",
+          "2f5642"
+        ]
+      ],
+      "text": "0xf5f5f0",
+      "cover": "0x1f3a2e",
+      "coverText": "0xf5f5f0",
+      "accent": "0xffd23f",
+      "accentText": "0x1f3a2e",
+      "hi": "ffd23f",
+      "hiText": "1f3a2e"
+    },
+    "aurora": {
+      "name": "Aurora",
+      "gradients": [
+        [
+          "04111f",
+          "0b2a4a"
+        ],
+        [
+          "06202e",
+          "0e3b4f"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x04111f",
+      "coverText": "0xffffff",
+      "accent": "0x5eead4",
+      "accentText": "0x04111f",
+      "hi": "5eead4",
+      "hiText": "04111f"
+    },
+    "scifi": {
+      "name": "Sci-fi HUD",
+      "gradients": [
+        [
+          "020b14",
+          "06263a"
+        ],
+        [
+          "03121f",
+          "0a3550"
+        ]
+      ],
+      "text": "0xe0faff",
+      "cover": "0x020b14",
+      "coverText": "0xe0faff",
+      "accent": "0x22d3ee",
+      "accentText": "0x021018",
+      "hi": "22d3ee",
+      "hiText": "021018"
+    },
+    "pixel": {
+      "name": "Pixel art",
+      "gradients": [
+        [
+          "1a1033",
+          "2d1b69"
+        ],
+        [
+          "24124a",
+          "3b2a8c"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x1a1033",
+      "coverText": "0xffffff",
+      "accent": "0x4ade80",
+      "accentText": "0x0b1a10",
+      "hi": "4ade80",
+      "hiText": "0b1a10"
+    },
+    "clay": {
+      "name": "Claymation",
+      "gradients": [
+        [
+          "ffd9c7",
+          "ffb8d1"
+        ],
+        [
+          "ffe3d3",
+          "ffc4dc"
+        ]
+      ],
+      "text": "0x3b1f2b",
+      "cover": "0xffd9c7",
+      "coverText": "0x3b1f2b",
+      "accent": "0xff6b6b",
+      "accentText": "0xffffff",
+      "hi": "ff6b6b",
+      "hiText": "ffffff"
+    },
+    "editorial": {
+      "name": "Editorial",
+      "gradients": [
+        [
+          "f5f1e8",
+          "e8e1d0"
+        ],
+        [
+          "f0ebdd",
+          "e2dac5"
+        ]
+      ],
+      "text": "0x111111",
+      "cover": "0xf5f1e8",
+      "coverText": "0x111111",
+      "accent": "0xc1121f",
+      "accentText": "0xffffff",
+      "hi": "c1121f",
+      "hiText": "ffffff"
+    },
+    "cinematic": {
+      "name": "Cinematic",
+      "gradients": [
+        [
+          "0b1a1f",
+          "1d2b2f"
+        ],
+        [
+          "101f24",
+          "2a1f14"
+        ]
+      ],
+      "text": "0xf4efe6",
+      "cover": "0x0b1a1f",
+      "coverText": "0xf4efe6",
+      "accent": "0xff9f43",
+      "accentText": "0x140c04",
+      "hi": "ff9f43",
+      "hiText": "140c04"
+    },
+    "collage": {
+      "name": "Collage",
+      "gradients": [
+        [
+          "f4ead5",
+          "e9d9b5"
+        ],
+        [
+          "efe3c8",
+          "e2cfa5"
+        ]
+      ],
+      "text": "0x1a1a1a",
+      "cover": "0xf4ead5",
+      "coverText": "0x1a1a1a",
+      "accent": "0xff4d6d",
+      "accentText": "0xffffff",
+      "hi": "ff4d6d",
+      "hiText": "ffffff"
+    },
+    "watercolour": {
+      "name": "Watercolour",
+      "gradients": [
+        [
+          "eaf4fb",
+          "d7e8f7"
+        ],
+        [
+          "f6eaf6",
+          "e6d6f2"
+        ]
+      ],
+      "text": "0x22314a",
+      "cover": "0xeaf4fb",
+      "coverText": "0x22314a",
+      "accent": "0x3b82f6",
+      "accentText": "0xffffff",
+      "hi": "3b82f6",
+      "hiText": "ffffff"
+    },
+    "newsroom": {
+      "name": "Newsroom",
+      "gradients": [
+        [
+          "0a1224",
+          "16284f"
+        ],
+        [
+          "0c1830",
+          "1b3366"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x0a1224",
+      "coverText": "0xffffff",
+      "accent": "0xe11d48",
+      "accentText": "0xffffff",
+      "hi": "e11d48",
+      "hiText": "ffffff"
+    },
+    "vaporwave": {
+      "name": "Vaporwave",
+      "gradients": [
+        [
+          "1b0b3a",
+          "5b2a86"
+        ],
+        [
+          "2a0f55",
+          "ff71ce"
+        ]
+      ],
+      "text": "0xffffff",
+      "cover": "0x1b0b3a",
+      "coverText": "0xffffff",
+      "accent": "0x05ffa1",
+      "accentText": "0x0b1a14",
+      "hi": "05ffa1",
+      "hiText": "0b1a14"
+    }
+  },
+  "motionFps": 20,
+  "motionScale": 0.667
+}

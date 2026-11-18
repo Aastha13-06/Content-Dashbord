@@ -1,0 +1,8 @@
+{
+  "name": "video-dashboard",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Script to reel and carousel dashboard. Runs locally or on GitHub Actions.",
+  "scripts": { "start": "node scripts/server.mjs" },
+  "engines": { "node": ">=20" }
+}
